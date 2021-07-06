@@ -1,0 +1,90 @@
+.symptoms {
+  margin-top: 65px;
+  background-color: #0023c4;
+  padding-bottom: 65px;
+}
+
+.symptoms .symptoms-contents {
+  padding-top: 25px;
+  align-items: center;
+}
+
+.symptoms .symptoms-contents .small-text {
+  text-align: center;
+  color: white;
+}
+
+.symptoms .symptoms-contents .title {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.symptoms .symptoms-contents .body-text {
+  text-align: center !important;
+  color: #bdcde9;
+  line-height: 1.5294117647;
+  font-size: 20px;
+  margin: 0px auto;
+  width: 550px;
+  justify-content: center;
+}
+
+.symptoms .symptoms-contents .symptoms-card-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.symptoms-card {
+  width: 390px;
+  height: 320px;
+  background-color: #2644cd;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px !important;
+  /* padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 25px; */
+  position: relative;
+}
+
+.symptoms-card .symptoms-img {
+  position: relative;
+  bottom: -30px;
+}
+.symptoms-card .symptoms-title {
+  position: relative;
+  bottom: -55px;
+  font-size: 25px;
+  color: white;
+}
+
+.symptoms-card .symptoms-body {
+  color: white;
+  margin-top: 300px;
+  visibility: hidden;
+}
+
+.symptoms-card:hover .symptoms-img {
+  display: none;
+  transition: 1s;
+}
+.symptoms-card:hover .symptoms-title {
+  /* bottom: -35px; */
+  top: 0px;
+}
+.symptoms-card:hover .symptoms-body {
+  visibility: visible;
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  text-align: center;
+  justify-content: center;
+  transition: 1s;
+}

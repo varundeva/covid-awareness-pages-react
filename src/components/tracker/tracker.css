@@ -1,0 +1,51 @@
+.trackerBox {
+  width: 100%;
+  height: 150px;
+  margin-top: -60px;
+}
+
+.trackerBox .trackerRow {
+  padding: 10px 50px;
+  margin: 0% 10%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 8px 11px 54px 0px rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 8px 11px 54px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 8px 11px 54px 0px rgba(0, 0, 0, 0.49);
+  border-radius: 20px;
+  z-index: 199;
+  position: relative;
+}
+
+.trackerBox .trackerRow .trackerHeading {
+  font-size: 25px;
+}
+
+.trackerBox .trackerRow .trackerCounter ul {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(245, 222, 179, 0.021);
+  width: 600px;
+  list-style-type: none;
+}
+.trackerBox .trackerRow .trackerCounter ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.trackerBox .trackerRow .trackerCounter ul li .caseNumber {
+  font-size: 40px;
+}
+
+.trackerBox .trackerRow .trackerCounter ul li .badgeWarning {
+  color: red;
+}
+
+.trackerBox .trackerRow .trackerCounter ul li .badgeSuccess {
+  color: green;
+}

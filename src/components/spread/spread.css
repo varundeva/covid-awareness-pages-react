@@ -1,0 +1,62 @@
+.spread {
+  /* background-color: azure; */
+  padding-bottom: 20px;
+}
+.spread .spreadHeading {
+  font-size: 35px;
+  text-align: center;
+}
+.spread .spreadData {
+  font-size: 20px;
+  text-align: center;
+  margin: 0px 30%;
+}
+
+.spread ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.spreadCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 368px;
+  height: 396px;
+}
+
+.spreadCard:hover {
+  box-shadow: 5px 10px 8px #00000031;
+}
+
+.spreadCard .spreadCardImg {
+  width: 158px;
+  height: 158px;
+}
+.spreadCard .spreadCardTitle {
+  margin: 0% 15%;
+  text-align: center;
+  font-size: 19px;
+}
+
+.spreadCard .spreadCardBody {
+  margin: 0% 6%;
+  text-align: center;
+}
+
+.spread .questionButton {
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.spread .questionButton button {
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 16px;
+}

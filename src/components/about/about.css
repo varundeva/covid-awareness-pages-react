@@ -1,0 +1,28 @@
+.about {
+  display: flex;
+  justify-content: space-around;
+}
+
+.heaboutro .about-image {
+  margin: 0px 50px;
+}
+
+.about .about-image img {
+  padding: 20px 0px;
+}
+
+.about .titleWrap {
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.about .titleWrap h2 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+.about .titleWrap p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.about .unstyled-list {
+  font-size: 25px;
+}
